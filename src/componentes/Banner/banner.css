@@ -1,0 +1,38 @@
+* {
+    list-style: none;
+}
+
+.banner {
+    color: #e7ecef;
+    background-color: #012a4a;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: column;
+    height: 110px;
+    list-style-type: none;
+}
+
+p {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.userProfile {
+    width: 20%;
+    border-radius: 100px;
+    border: 3px solid #e7ecef;
+    box-shadow: 8px 8px 16px 16px rgba(255, 255, 255, 0.08);
+    transition: 0.5s;
+}
+
+.userProfile:hover {
+    width: 22%;
+    border: 3px solid #6096ba;
+    cursor: pointer;
+}
